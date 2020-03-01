@@ -1,0 +1,20 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<!--
+<img src="images/mainpic.jpg" style="width:30%; border:5px solid; margin-right: 20px" align="left">
+--> 
+
+<iframe width="560" height="315" style="margin-right: 20px" align="left" frameborder="0"
+src="https://www.youtube.com/embed/-26g5lJaFhE">
+</iframe>
+
+Hi! My name is Yung-Yu.
+
+I obtained my BA degree in Political Science at [National Taiwan University](https://www.ntu.edu.tw/english/index.html) in 2015 and receieved my Master degree in Public Administration at [National Chengchi University](https://www.nccu.edu.tw/app/home.php) in 2019.
+
+I previously worked as a policy analyst in the [Congress of Taiwan](https://www.ly.gov.tw/Engpages/index.aspx) from 2016 to 2017. Currently, I work as a research assitant at [Institute of Economics, Academia Sinica](http://www.econ.sinica.edu.tw/english).
+
+My full CV is available [here](files/cv_yungyutsai.pdf).
