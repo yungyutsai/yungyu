@@ -18,6 +18,11 @@
 </center>
 </div>
 <div class = "col-md-4">
+<center>
+<a href = "https://yungyutsai.shinyapps.io/COVID-19/" target="_blank">
+<img src="images/portfolio/COVID19.jpg" style="width:100%">
+</a>
+</center>
 </div>
 <div class = "col-md-4">
 </div>
@@ -31,6 +36,11 @@ Probability Distribution Calculator
 </center>
 </div>
 <div class = "col-md-4">
+<center>
+<a href = "https://yungyutsai.shinyapps.io/COVID-19/" target="_blank">
+COVID-19 Confirmed / Death Cases Trend
+</a>
+</center>
 </div>
 <div class = "col-md-4">
 </div>

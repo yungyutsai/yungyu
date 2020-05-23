@@ -9,9 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Yung-Yu Tsai" />
 
 
-<title></title>
+<title>Apply to PhD in Public Policy &amp; Public Affairs</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,9 +20,15 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -264,7 +271,116 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
 
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -320,25 +436,58 @@ $(document).ready(function () {
 
 <div class="fluid-row" id="header">
 
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
 
 
+
+<h1 class="title toc-ignore">Apply to PhD in Public Policy &amp; Public Affairs</h1>
+<h4 class="author"><em>Yung-Yu Tsai</em></h4>
+<h4 class="date"><em>2020/3/15</em></h4>
 
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="images/mainpic.jpg" style="width:30%; border:5px solid; margin-right: 20px" align="left"> <!--
-<iframe width="560" height="315" style="margin-right: 20px" align="left" frameborder="0"
-src="https://www.youtube.com/embed/-26g5lJaFhE">
-</iframe>
---></p>
-<p>Hi! My name is Yung-Yu.</p>
-<p>I obtained my BA degree in Political Science at <a href = "https://www.ntu.edu.tw/english/index.html" target="_blank">National Taiwan University</a> in 2015 and receieved my Master degree in Public Administration at <a href = "https://www.nccu.edu.tw/app/home.php" target="_blank">National Chengchi University</a> in 2019.</p>
-<p>I previously worked as a policy analyst in the <a href = "https://www.ly.gov.tw/Engpages/index.aspx" target="_blank">Legislative Yuan (congress of Taiwan)</a> from 2016 to 2017. Currently, I work as a research assitant at <a href = "http://www.econ.sinica.edu.tw/english" target="_blank">Institute of Economics, Academia Sinica</a>.</p>
-<p>My full CV is available <a href = "files/CV_YungYuTsai.pdf" target="_blank">here</a></p>
+<hr />
+<div id="admission" class="section level1">
+<h1><span class="header-section-number">1</span> Admission</h1>
+<ul>
+<li>University of Missouri, PhD in Public Affairs</li>
+<li>Georgia State University, PhD in Public Policy</li>
+<li>Lehigh University, Ph.D. in Business and Economics</li>
+</ul>
+</div>
+<div id="rejection" class="section level1">
+<h1><span class="header-section-number">2</span> Rejection</h1>
+<ul>
+<li>Indiana University Bloomington, PhD in Public Affairs</li>
+<li>Duke University, PhD in Public Policy</li>
+<li>Stanford University, PhD in Education Policy</li>
+<li>New York University, PhD in Public Administration</li>
+<li>University of North Carolina (Chapel Hill), PhD in Public Policy</li>
+<li>Arizona State University, PhD in Public Administration and Policy</li>
+<li>Cornell University, PhD in Policy Analysis and Management</li>
+</ul>
+</div>
+<div id="pending" class="section level1">
+<h1><span class="header-section-number">3</span> Pending</h1>
+<ul>
+<li>Northwestern University, PhD in Human Development and Social Policy</li>
+<li>University of Maryland Baltimore County (UMBC), PhD in Public Policy</li>
+<li>Syracuse University, PhD in Public Administration</li>
+</ul>
+<hr />
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
